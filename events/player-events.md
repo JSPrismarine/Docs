@@ -40,7 +40,7 @@ Fired when a player changes there gamemode.
 
 ## Examples
 
-### Prevent any chat with capital letters
+### Prevent any player to fly
 
 ```typescript
 this.api.getEventManager()
