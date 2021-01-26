@@ -11,15 +11,13 @@ Fired when a new block is registered.
 ### Prevent block from being registered
 
 ```typescript
-this.api
-    .getServer()
-    .getEventManager()
-    .on('blockRegister', (event) => {
-        const block = event.getBlock();
-        if (block.getName() !== 'minecraft:stone') return;
+this.api.getEventManager()
+    .on("blockRegister", (event: BlockRegisterEvent) => {
+        const block = event.getBlock() as Block;
+        if (block.getName() !== "minecraft:stone") return;
 
-        this.api.getLogger().info(`minecraft:stone isn't permitted`);
-        event.cancelled = true;
+        this.api.getLogger().info("minecraft:stone isn't permitted");
+        event.preventDefault();
     });
 ```
 
