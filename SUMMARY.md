@@ -13,6 +13,14 @@
 * [Player Events](events/player-events.md)
 * [Raknet events](events/raknet-events.md)
 
+## LoggerBuilder
+
+* [debug](logger/debug-logger.md)
+* [error](logger/error-logger.md)
+* [info](logger/info-logger.md)
+* [silly](logger/silly-logger.md)
+* [warn](logger/warn-logger.md)
+
 ## BlockManager
 
 ## ChatManager
