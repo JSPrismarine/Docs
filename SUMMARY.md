@@ -13,7 +13,7 @@
 * [Player Events](events/player-events.md)
 * [Raknet events](events/raknet-events.md)
 
-## LoggerBuilder
+## Logger
 
 * [debug](logger/debug-logger.md)
 * [error](logger/error-logger.md)
