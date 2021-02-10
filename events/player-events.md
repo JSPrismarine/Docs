@@ -32,7 +32,7 @@ Fired when a player toggles sprint.
 
 ### playerToggleOperator
 
-Fired when a player add or removes there operator status.
+Fired when a player add or removes their operator status.
 
 ### playerSetGamemode
 

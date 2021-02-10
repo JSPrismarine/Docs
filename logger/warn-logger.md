@@ -1,6 +1,6 @@
 # Uses
 
-log any warnings to the console.
+log any warning to the console.
 
 # Examples
 
