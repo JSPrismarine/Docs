@@ -5,6 +5,6 @@ log any warnings to the console.
 # Examples
 
 ```typescript
-this.api.getLogger().warn("This might not work but okay.");
+this.api.getLogger().warn("Database is missing, creating a new one...");
 ```
 

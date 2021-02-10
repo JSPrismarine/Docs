@@ -20,15 +20,15 @@ Fired when a player despawns from the world.
 
 ### playerMove
 
-Fired when a player moves in the server.
+Fired when a player moves.
 
 ### playerToggleFlight
 
-Fired when a player starts to fly.
+Fired when a player toggles fly.
 
 ### playerToggleSprint
 
-Fired when a player starts to sprint.
+Fired when a player toggles sprint.
 
 ### playerToggleOperator
 
@@ -36,11 +36,11 @@ Fired when a player add or removes there operator status.
 
 ### playerSetGamemode
 
-Fired when a player changes there gamemode.
+Fired when a player changes their gamemode.
 
 ## Examples
 
-### Prevent any player to fly
+### Prevent any player from flying
 
 ```typescript
 this.api.getEventManager()

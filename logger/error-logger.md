@@ -1,10 +1,10 @@
 # Uses
 
-log any errors to the console.
+log any error to the console.
 
 # Examples
 
 ```typescript
-this.api.getLogger().error("Something when wrong here!");
+this.api.getLogger().error("Something went wrong here!");
 ```
 
