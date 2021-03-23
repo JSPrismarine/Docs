@@ -21,7 +21,7 @@ You can contribute to create-prismarine-plugin by visting [https://github.com/JS
 {% tabs %}
 {% tab title="index.ts" %}
 ```typescript
-import type PluginApi from '@jsprismarine/prismarine/dist/src/plugin/api/versions/1.0/PluginApi';
+import type { PluginApi } from '@jsprismarine/prismarine';
 
 export default class PluginBase {
     api: PluginApi;
